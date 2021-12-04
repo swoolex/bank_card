@@ -1,0 +1,29 @@
+{
+    "name": "swx/bank_card",
+    "type": "library",
+    "description": "国内银行卡归属银行解析",
+    "keywords": [
+        "swoole",
+        "swoole-x",
+        "swoolex",
+        "sw-x",
+        "swx-bank_card"
+    ],
+    "homepage": "https://www.sw-x.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "小黄牛",
+            "email": "1731223728@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "> 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swx\\BankCard\\": "src/"
+        }
+    }
+}
